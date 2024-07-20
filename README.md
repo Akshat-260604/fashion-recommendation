@@ -31,7 +31,7 @@ To run the recommender system, follow these steps:
 4. Run the recommendation script to see the results.
 
 ### Future Improvements
-- **Expand Dataset**: Incorporate a larger and more diverse set of fashion images. I am linking the dataset that I used for this project. Here you go - https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small. I am also linking cleaned styles_csv so that it reduces your workload. Here it is - 
+- **Expand Dataset**: Incorporate a larger and more diverse set of fashion images. I am linking the dataset that I used for this project. Here you go - https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small. I am also sharing 'styles_cleaned.csv' above so that it reduces your workload.
 - **Advanced Models**: Experiment with more advanced deep learning models for improved accuracy.
 - **User Interface**: Develop a web or mobile interface for easier user interaction.
 
