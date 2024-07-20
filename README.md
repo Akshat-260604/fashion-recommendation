@@ -1,4 +1,3 @@
-Here's a sample bio for your GitHub project:
 
 ---
 
@@ -13,13 +12,13 @@ Welcome to the Fashion Recommender System project! This project leverages precom
 - **User-Friendly Visualization**: Provides a clear visual representation of the target image alongside its recommended similar items.
 
 ### Technical Details
-- **Embeddings Storage**: Image embeddings are stored in a CSV file for efficient access and manipulation.
+- **Embeddings Storage**: Image embeddings are stored in a CSV file for efficient access and manipulation. The embedding file might take up several hours and days in few cases if you're just reliable on your CPU. I have done that so I am providing you guys with the embedded file directly - https://drive.google.com/file/d/1_UVUZwprI35G7Wyo5wi2rnquP_ujfjgX/view?usp=sharing
 - **Preprocessing**: Preprocessing steps are already done, and embeddings are directly used for similarity computation.
 - **Model Training**: The VGG16 model was used to generate embeddings for a dataset of fashion images.
 - **Dependencies**: Utilizes libraries such as TensorFlow/Keras, NumPy, Pandas, and Matplotlib for various tasks.
 
 ### How It Works
-1. **Load Embeddings**: Reads the precomputed embeddings from `image_embeddings.csv`.
+1. **Load Embeddings**: Reads the precomputed embeddings from `image_embeddings.csv` which is uploaded on the above provide gdrive link.
 2. **Select Target Image**: Chooses a target image from the dataset.
 3. **Calculate Similarity**: Computes the cosine similarity between the target image embedding and all other embeddings.
 4. **Recommend Images**: Identifies and displays the top 5 most similar images to the target image.
@@ -32,7 +31,7 @@ To run the recommender system, follow these steps:
 4. Run the recommendation script to see the results.
 
 ### Future Improvements
-- **Expand Dataset**: Incorporate a larger and more diverse set of fashion images.
+- **Expand Dataset**: Incorporate a larger and more diverse set of fashion images. I am linking the dataset that I used for this project. Here you go - https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small. I am also linking cleaned styles_csv so that it reduces your workload. Here it is - 
 - **Advanced Models**: Experiment with more advanced deep learning models for improved accuracy.
 - **User Interface**: Develop a web or mobile interface for easier user interaction.
 
