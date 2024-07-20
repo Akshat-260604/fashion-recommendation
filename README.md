@@ -40,4 +40,3 @@ This project showcases the power of image embeddings and similarity calculations
 
 ---
 
-Feel free to customize this bio further to better match your project specifics and goals.
